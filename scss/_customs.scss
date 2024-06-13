@@ -1,0 +1,21 @@
+*{
+    // overflow: hidden;
+
+    a{
+        margin: 0 3rem;
+    }
+
+}
+
+// grid option
+// @mixin grid($cols, $mgn){
+//     float: left;
+//     margin-right: $mgn;
+//     margin-bottom: $mgn;
+//     width: ((100% - (($cols - 1) * $mgn)) / $cols);
+//     &:nth-child(#{$cols}n){
+//         margin-right: 0;
+//     }
+// }
+//import bootstrap 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

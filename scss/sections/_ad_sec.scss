@@ -1,0 +1,49 @@
+@use '../customs' as *;
+
+.ad-section{
+        position: relative;
+        background-image: url(../../assets/img/add-1/add-bg-1.png);
+        background-size:cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+    .ad-text{
+        font-family: montserrat;
+        h1{
+            padding-top: 10%;
+            padding-bottom: 5%;
+            font-weight: 500;
+            font-size: 2.5rem;
+            @include media-breakpoint-down(sm){
+                font-size: 2.5rem;
+            }
+        }
+        h2{
+            font-size: 1.5rem;
+            padding: 5% 0;
+            font-weight: 600;
+        }
+        h3{
+            padding: 10;
+            margin: 0 2%;
+
+        }
+        button{
+            padding: 2% 5%;
+            
+        }
+    }
+    
+    .ad-img{
+        img{
+            object-fit:scale-down;
+            max-height: 25rem;
+            @include media-breakpoint-down(sm){
+                padding: 5% 0;
+                max-height: 18rem;
+            }
+        }
+    }
+}
